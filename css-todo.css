@@ -10,3 +10,27 @@ body{
 header{
     background-color: white;
 }
+
+ul, ol {
+    padding-left: 18px;
+    list-style: none
+}
+/*main*/
+
+
+.container{
+    width: 75%;
+    background-color: red;
+    margin: 0 auto;
+}
+
+#list-container{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.editorial{
+    background-color: cyan;
+    border-radius: 20px;
+}
