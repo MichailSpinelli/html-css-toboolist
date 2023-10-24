@@ -30,7 +30,66 @@ ul, ol {
     border-radius: 20px;
 }
 
+.check {
+    border-radius: 50%;
+    border: 1px solid grey;
+    color: grey;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+.done {
+    border-color: green;
+    color: green;
+}
+
+.not-done {
+    border-color: red;
+    color: red;
+}
+
 .editorial{
-    background-color: cyan;
+    background-color: blue;
     border-radius: 20px;
+    color: white;
+    padding: 5px;
+}
+
+.Q1-GOALS{
+    background-color: violet;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+}
+
+.Recruiting{
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+}
+
+.Mobile{
+    background-color: yellow;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+}
+
+.Website{
+    background-color: pink;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+}
+
+.Sales{
+    background-color: brown;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
 }
