@@ -1,33 +1,60 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1, header img{
+    vertical-align: middle;
 }
 
 body{
     background-color: grey;
 }
 
+#Add-task{
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#Add-section{
+    background-color: white;
+    border-radius: 20px;
+    border: solid;
+    color: gray;
+    padding: 10px;
+}
+
 header{
     background-color: white;
+    height: 80px;
+    padding: 10px;
 }
 
 ul, ol {
     padding-left: 18px;
     list-style: none
 }
+
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 /*main*/
 
 
 .container{
     width: 75%;
-    background-color: red;
     margin: 0 auto;
 }
 
 #list-container{
     background-color: white;
     padding: 10px;
+    padding-left: 50px;
     border-radius: 20px;
+    height: 800px;
 }
 
 .check {
@@ -56,40 +83,47 @@ ul, ol {
     background-color: blue;
     border-radius: 20px;
     color: white;
-    padding: 5px;
+    padding: 3px;
+    font-size: 15px;
 }
 
 .Q1-GOALS{
     background-color: violet;
     border-radius: 20px;
     color: white;
-    padding: 5px;
+    padding: 3px;
+    font-size: 15px;
 }
 
 .Recruiting{
     background-color: green;
     border-radius: 20px;
     color: white;
-    padding: 5px;
+    padding: 3px;
+    font-size: 15px;
 }
 
 .Mobile{
-    background-color: yellow;
+    background-color: lightsalmon;
     border-radius: 20px;
     color: white;
-    padding: 5px;
+    padding: 3px;
+    font-size: 15px;
 }
 
 .Website{
     background-color: pink;
     border-radius: 20px;
     color: white;
-    padding: 5px;
+    padding: 3px;
+    font-size: 15px;
 }
 
 .Sales{
     background-color: brown;
     border-radius: 20px;
     color: white;
-    padding: 5px;
+    padding: 3px;
+    font-size: 15px;
 }
+
